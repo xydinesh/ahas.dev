@@ -1,0 +1,82 @@
+body {
+    background-color:black;
+    margin: auto;
+}
+text {
+    color: white;
+    font-family: 'New Tegomin', serif;
+}
+#yeet {
+    color: white;
+    font-family: 'ubuntu', serif;
+}
+#text {
+    color: white;
+    font-family: 'New Tegomin', serif;
+}
+.solr {
+    border: dotted blue;
+}
+.link {
+    color: white;
+    font-family: 'New Tegomin', serif;
+}
+#code {
+    background-color: gray;
+    
+    @keyframes red-to-black
+        0% {background: red; transform: translate(0px, 0px);}
+        50% {background:yellow; transform: translate(10px, 10px);}
+        100% {background-color: black; transform: translate(20px, 20px);}
+
+}
+.no {
+    background-color: white;
+}
+.div {
+    background: radial-gradient(black 50%, blue);
+    width: 60vw;
+    height: 60vh;
+}
+.shh:hover {
+    color: white;
+    font-family: 'New Tegomin', serif;
+}
+.shh {
+    animation-name: background;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; 
+}
+#html-container {
+
+}
+#html:hover {
+    padding: 20px 30px;
+    background: rgb(147, 187, 255);
+}
+#html {
+    margin:20px 10px;
+    padding: 10px 15px;
+    border: none;
+    font-family: 'Lato', serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background: rgb(236, 166, 108);
+    -webkit-transition: background, padding 500ms ease;
+    -moz-transition: background, padding 500ms ease;
+    -o-transition: background, padding 500ms ease;
+}
+@keyframes background {
+    0% {background:black;}
+    50% {background:blue;}
+    100% {background-color: black;}
+}
+    .body {
+    animation-name: background;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}

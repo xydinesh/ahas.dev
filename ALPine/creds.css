@@ -1,0 +1,17 @@
+body {
+    background: url(credbackground.png);
+    background-size:cover;
+}
+#text {
+    color: white;
+    font-family: 'Ubuntu', serif;
+}
+.facts {
+    color: black;
+}
+#textarea1 {
+    font-family: 'New Tegomin', serif;
+}
+#textarea2 {
+    font-family: 'Ubuntu', serif;
+}
